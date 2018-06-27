@@ -1,5 +1,10 @@
 export default `
 
+    type UserShort{
+        _id: ID
+        username: String!
+        thumbnail: String
+    }
 
     type User {
         _id: ID!
